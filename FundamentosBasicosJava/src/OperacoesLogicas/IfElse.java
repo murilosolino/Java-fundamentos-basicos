@@ -24,5 +24,17 @@ public class IfElse {
 
 		System.out.println(saidaResultado);
 
+		/* OPERAÇÕES LÓGICAS ANINHADAS: São operações dentro de operações */
+
+		if (mediaAluno >= 50) {
+			if (mediaAluno >= 70) {
+				System.out.println("Aprovado direto");
+			} else {
+				System.out.println("recuperação");
+			}
+		} else {
+			System.out.println("REPROVADO");
+		}
+
 	}
 }
