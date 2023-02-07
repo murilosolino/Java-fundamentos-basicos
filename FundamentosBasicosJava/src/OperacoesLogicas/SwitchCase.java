@@ -23,6 +23,7 @@ public class SwitchCase {
 			System.out.println("Valor não encontrado" + media);
 			break;
 		}
+		/*=========================================================*/
 		int dia;
 		
 		System.out.println("Digite um valor de 1 a 7");
@@ -64,6 +65,8 @@ public class SwitchCase {
 			break;
 
 		}
+		
+		/*SWITCH CASE FUNCIONA PERFEITAMENTE COM VALORES EXATOS */
 
 	}
 }

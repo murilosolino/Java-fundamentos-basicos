@@ -10,44 +10,41 @@ public class Ex4 {
 	 * que identifique se o comprador é um cliente comum (1), funcionário (2) ou vip
 	 * (3).
 	 */
-	
+
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner (System.in);
-		
+		Scanner scanner = new Scanner(System.in);
+
 		int valorDaCompra;
 		int cliente;
-		double valorFinal;
-		
+		double valorFinal=0;
+
 		System.out.println("Selecione o tipo de cliente \n 1-Cliente comum \n 2-Funcionário \n 3- VIP");
 		cliente = scanner.nextInt();
-		
+
+		System.out.println("Digite o valor da compra");
+		valorDaCompra = scanner.nextInt();
+
 		switch (cliente) {
 		case 1:
-			System.out.println("Digite o valor da compra");
-			valorDaCompra = scanner.nextInt();
-			
+
 			valorFinal = valorDaCompra;
-			System.out.println("O valor final a ser pago é R$ " + valorFinal);
 			break;
-			
+
 		case 2:
-			System.out.println("Digite o valor da compra");
-			valorDaCompra = scanner.nextInt();
-			
-			valorFinal = valorDaCompra - (valorDaCompra *  0.10);
-			System.out.println("O valor final a ser pago é R$ " + valorFinal);
+
+			valorFinal = valorDaCompra - (valorDaCompra * 0.10);
+
 			break;
-		
+
 		case 3:
-			System.out.println("Digite o valor da compra");
-			valorDaCompra = scanner.nextInt();
-			
-			valorFinal = valorDaCompra - (valorDaCompra* 0.05);
-			System.out.println("O valor final a ser pago é R$ " + valorFinal);
+
+			valorFinal = valorDaCompra - (valorDaCompra * 0.05);
+
 			break;
-			
+
 		default:
 			break;
 		}
+		System.out.println("O valor final a ser pago é R$ " + valorFinal);
 	}
 }
