@@ -6,7 +6,7 @@ public class EntradaSaida {
 	public static void main(String[] args) {
 		/*
 		 * JOptionPane.showInputDialog maneira de ENTRADA de dados via java desktop, diferentemente do
-		 * Scanner que faz a ENTRADA no console.
+		 * Scanner que faz a ENTRADA no console..
 		 */
 		String carro = JOptionPane.showInputDialog("Informe a quantidade de carros");
 		String pessoa = JOptionPane.showInputDialog("Informe a quantidade de pessoas");
