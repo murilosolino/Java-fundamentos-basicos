@@ -6,4 +6,5 @@
  *
  */
 module FundamentosBasicosJava {
+	requires java.desktop;
 }

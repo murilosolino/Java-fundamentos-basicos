@@ -3,6 +3,7 @@ package OperacoesLogicasFOR;
 import java.util.Scanner;
 
 public class Ex3 {
+	/*Faça um programa, utilizando for e while, que peça ao usuário um número e mostre a sua tabuada*/
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int tabuada, contador,ntabuada;
