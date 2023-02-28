@@ -2,7 +2,7 @@ package OperacoesLogicas;
 
 public class RestoDivisao {
 	public static void main(String[] args) {
-		/*Módulo: Resto da divisão*/
+		/*Módulo: Resto da divisão.*/
 		
 		double carros = 9;
 		double pessoas = 2;

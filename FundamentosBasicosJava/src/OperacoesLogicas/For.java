@@ -27,7 +27,7 @@ public class For {
 				break;
 			}
 			System.out.println("\n");
-		/*estrutura de repetição FOR com Continue*/
+		/*estrutura de repetição FOR com Continue.*/
 			
 		for (int numero1 = 0; numero1 <=10; numero1++) {
 			if (numero1 == 3 || numero1 == 6 || numero1 == 9) {
