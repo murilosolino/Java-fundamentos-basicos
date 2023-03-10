@@ -1,8 +1,7 @@
-package POO.executavel;
+package POO.Aluno;
+ 
 
-import POO.classes.Aluno;
-
-public class Main {
+public class MainAluno {
 	public static void main(String[] args) {
 		/* Objeto real na memória*/
 		Aluno aluno1 = new Aluno("Maria");
@@ -34,12 +33,23 @@ public class Main {
 		aluno4.setNomeEscola("Escola ABC");
 		aluno4.setSerieMatriculado("6 ano");
 		aluno4.setDataMatricula("09/01/2023");
+		aluno4.setNota1(9.5);
+		aluno4.setNota4(10);
+		aluno4.setNota3(8);
+		aluno4.setNota2(9);
 		
 		/*recuperando os dados e imprimindo eles*/
-		System.out.println("Nome do aluno 4 é: " + aluno4.getNome());
+		System.out.println("Nome do aluno: " + aluno4.getNome());
 		System.out.println("Idade: " + aluno4.getIdade());
 		System.out.println("Aniversário: " + aluno4.getAniversario());
-		System.out.println("Data da matricula: " + aluno4.getDataMatricula());
+		System.out.println("Data da matricula: " + aluno4.getDataMatricula() + "\n");
+		
+		System.out.println("Media do aluno: " + aluno4.getMediaNotas());
+		
+		System.out.println("Resultado: " + (aluno4.getSituacaoAprovamento() ? "Aprovado" : "Reprovado"));
+		
+		
+		
 		
 	}
 }
