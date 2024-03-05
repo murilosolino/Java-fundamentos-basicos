@@ -1,0 +1,20 @@
+9.4- (Reutilização de software) Discuta de que maneira a herança promove a reutilização de software, economiza tempo durante o desenvolvimento
+de programa e ajuda a evitar erros.
+
+- A heranca promove a reutilizacao de software evitando diversar classes "copia e cola", assim diminuindo a duplicidade de softeware e economiza tempo em seu desenvovimento,
+uma vez que uma superclasse foi bem projetada e construida ela pode ser aplicada em diversas sublcasses, assim fornecendo um padrao e facilitando a manutencao do codigo.
+
+A herança também pode ajudar a evitar erros. Isso ocorre porque os programadores podem confiar na confiabilidade do código existente. 
+Quando os programadores reutilizam código existente, eles sabem que esse código foi testado e testado, o que reduz o risco de erros.
+
+9.7- Alguns programadores preferem não utilizar acesso protected, porque acreditam que ele quebra o
+encapsulamento da superclasse. Discuta os méritos relativos de usar acesso protected versus acesso private em superclasses.
+
+proteced serve para subclasses acessar atributos e metodos de sua superclasse. Esta regra tambem se aplica para classes que etao no mesmo pacote. Desta forma criando um certo \
+nivel de protecao com o encaplsulamento, mas ainda eh preferivel que se use private e acesse os atributos atraves de metodos public, o moidificador de acesso private nos da uma 
+camada a mais de protecao assim impossibilitanto que qualquer classe que esteja no mesmo pacote possa alterar ou acessar os valores dos atributos de maneira indevida.
+
+Por outro lado o protected pode ser mais util ao facilitar a reutiliizacao de codigo, mas essa facilidade vem com o preco de quebra de encapsulamento
+
+
+
