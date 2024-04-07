@@ -1,0 +1,20 @@
+--------------- Conceitos da Recursao ------------------
+Metodo recursivo:
+- possui uma condicao de parada (caso basico)
+- enquanto a condicao de parada nao for atendida o metodo chama a si mesmo
+- Um método recursivo pode chamar outro método, que por sua vez pode fazer 
+uma chamada de volta ao método recursivo (recursao indireta)
+
+- Omitir o caso básico ou escrever o passo de recursão incorretamente de
+ modo que este não convirja para o caso básico pode causar um erro de 
+ lógica conhecido como recursão infinita
+
+ - recursão prossegue produzindo versões menores do problema original até 
+ que o caso básico seja alcançado
+
+ - Uma abordagem recursiva em geral é preferida sobre uma abordagem iterativa quando 
+ ela espelha mais naturalmente o problema e resulta em um programa mais fácil de entender e depurar.
+
+ - Em um retorno recursivo, se um conjunto de chamadas recursivas não resultar em uma solução para o problema,
+o programa volta ao ponto de decisão e toma uma decisão diferente, proporcionando frequentemente outro conjunto
+de chamadas recursivas
