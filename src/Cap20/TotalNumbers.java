@@ -1,6 +1,7 @@
 package Cap20;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class TotalNumbers {
 
@@ -38,6 +39,7 @@ public class TotalNumbers {
 
         System.out.printf("numberList contains: %s%n", numberListDouble);
         System.out.printf("Total of the elements in numberList: %.1f%n", sum(numberListDouble));
+
     }
 
     /*
