@@ -1,4 +1,4 @@
-package Cap21;
+package Cap21.List;
 
 public class EmptyListException extends RuntimeException {
     

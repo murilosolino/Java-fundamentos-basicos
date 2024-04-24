@@ -1,6 +1,5 @@
-package Cap21;
+package Cap21.List;
 //Declaracoes de classe ListNode e List
-
 //classe que representa um no em uma lista
  class ListNode<T> {
     

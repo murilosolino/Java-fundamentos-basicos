@@ -1,4 +1,4 @@
-package Cap21.PraticeList;
+package Cap21.List.PraticeList;
 
 public class ListaEncadeada<T> {
 

@@ -1,6 +1,6 @@
-package Cap21.PraticeList.Test;
+package Cap21.List.PraticeList.Test;
 
-import Cap21.PraticeList.ListaEncadeada;
+import Cap21.List.PraticeList.ListaEncadeada;
 
 public class ListaEncadeadaTest {
     

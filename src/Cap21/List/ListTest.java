@@ -1,4 +1,5 @@
-package Cap21;
+package Cap21.List;
+
 
 public class ListTest {
     public static void main(String[] args) {
